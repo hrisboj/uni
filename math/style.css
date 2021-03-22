@@ -1,0 +1,75 @@
+body{
+	background: #F0FFFF;
+	text-align: center;
+	background-image: url('images/golema.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+h2{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+	background: red;
+}
+#header{
+	background: #008B8B;
+}
+#dashed {
+	border-style: dashed;
+}
+#temi{
+
+	font-size: 30px;
+	font-style: oblique;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+a{	
+	text-align: left;
+	margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+a:link {
+  color: #008B8B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#table{
+	 margin-left: auto;
+  margin-right: auto;
+}
+
+#rezultati{
+	font-size: 25px;
+	font-style: oblique;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
