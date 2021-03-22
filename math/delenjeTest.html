@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matematika</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="header">
+	<img src="images/globus.jpg" style="width:600px;height:250px">
+	<h1>Тест за операција собирање</h1>
+	</div>
+
+	<table id="table">
+		<tr><div id="prvoPrasanje"></div>
+			<th><div id="primary-number">7</div></th>
+			<th><div id="add">/</div></th>
+			<th><div id="secondary-number">10</div></th>
+			<th><div id="equal">=</div></th>
+			<th><div>
+            <input type="number" id="guessFirst">
+        </div></th>
+		</tr>
+<tr><div id="vtoroPrasanje"></div>
+			<th><div id="primary-number2">7</div></th>
+			<th><div id="add">/</div></th>
+			<th><div id="secondary-number2">10</div></th>
+			<th><div id="equal">=</div></th>
+			<th><div>
+            <input type="number" id="guessSecond">
+        </div></th>
+		</tr>
+
+<tr><div id="tretoPrasanje"></div>
+			<th><div id="primary-number3">7</div></th>
+			<th><div id="add">/</div></th>
+			<th><div id="secondary-number3">10</div></th>
+			<th><div id="equal">=</div></th>
+			<th><div>
+            <input type="number" id="guessThird">
+        </div></th>
+		</tr>
+
+
+</table>
+<div id="rezultati">
+		<p style="color: red">За крај на тестот притиснете на копчето</p><p style="color: red">"Крај".</p>
+		<div>
+            <button id="btn" onclick="stopFunction()" style="font-size: 25px" >Крај</button>
+        </div>
+
+
+
+<p id="tocni">Точни одговори: </p>
+<p id="netocni">Неточни одговори: </p>
+<div id="countdown"></div>
+
+<p id="uspesnost">Успешност: </p>
+<p id="poraka">Порака: </p>
+<a href="index.html">Назад кон почетна страна</a>
+
+</div>
+
+<script src="delenje.js"></script>
+
+
+
+
+
+</body>
+</html>
